@@ -11,6 +11,6 @@ OR
 Run `rm -r ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/SimulatorBuild.xcplugin` in Terminal
 
 ## Usage
-Xcode window option contains an menu item entitled as "Simulator Build"
+Xcode window option contains an menu item entitled as "Simulator Build" for creation of Simulator Build.
 
 ![Screenshot](https://github.com/Minal91/SimulatorBuild/blob/master/CreateSimulatorBuild.gif)
