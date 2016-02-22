@@ -4,7 +4,7 @@ Create simulator build application for Facebook approval etc
 ## Install
 1.Put SimulatorBuild.xcplugin file at location ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins
 
-(NOTE: If path doesn't exist then please install [Alcatraz](https://github.com/alcatraz/Alcatraz))
+(NOTE: If path doesn't exist then please install [Alcatraz](https://github.com/alcatraz/Alcatraz) first)
 
 2.Restart Xcode
 
