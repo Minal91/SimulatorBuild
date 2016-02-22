@@ -4,11 +4,14 @@ Create simulator build application for Facebook approval etc
 ## Install
 1.Put SimulatorBuild.xcplugin file at location ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins
 (NOTE: If path doesn't exist then please install Alcatraz)
+
 2.Restart Xcode
 
 ## Uninstall
 Remove SimulatorBuild.xcplugin file at location ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/.
-OR 
+
+OR
+
 Run `rm -r ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/SimulatorBuild.xcplugin` in Terminal.
 
 ## Usage
