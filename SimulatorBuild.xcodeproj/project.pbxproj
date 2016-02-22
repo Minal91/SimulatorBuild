@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1328931C7AC68500E0ECCC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1328921C7AC68500E0ECCC /* AppKit.framework */; };
+		4E1328951C7AC68500E0ECCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1328941C7AC68500E0ECCC /* Foundation.framework */; };
+		4E1328991C7AC68500E0ECCC /* SimulatorBuild.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 4E1328981C7AC68500E0ECCC /* SimulatorBuild.xcscheme */; };
+		4E13289C1C7AC68500E0ECCC /* SimulatorBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13289B1C7AC68500E0ECCC /* SimulatorBuild.m */; };
+		4E13289F1C7AC68500E0ECCC /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13289E1C7AC68500E0ECCC /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E13288F1C7AC68500E0ECCC /* SimulatorBuild.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulatorBuild.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1328921C7AC68500E0ECCC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		4E1328941C7AC68500E0ECCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4E1328981C7AC68500E0ECCC /* SimulatorBuild.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SimulatorBuild.xcscheme; path = SimulatorBuild.xcodeproj/xcshareddata/xcschemes/SimulatorBuild.xcscheme; sourceTree = SOURCE_ROOT; };
+		4E13289A1C7AC68500E0ECCC /* SimulatorBuild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimulatorBuild.h; sourceTree = "<group>"; };
+		4E13289B1C7AC68500E0ECCC /* SimulatorBuild.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulatorBuild.m; sourceTree = "<group>"; };
+		4E13289D1C7AC68500E0ECCC /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		4E13289E1C7AC68500E0ECCC /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		4E1328A01C7AC68500E0ECCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E13288D1C7AC68500E0ECCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1328931C7AC68500E0ECCC /* AppKit.framework in Frameworks */,
+				4E1328951C7AC68500E0ECCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E1328861C7AC68500E0ECCC = {
+			isa = PBXGroup;
+			children = (
+				4E1328961C7AC68500E0ECCC /* SimulatorBuild */,
+				4E1328911C7AC68500E0ECCC /* Frameworks */,
+				4E1328901C7AC68500E0ECCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E1328901C7AC68500E0ECCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E13288F1C7AC68500E0ECCC /* SimulatorBuild.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E1328911C7AC68500E0ECCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E1328921C7AC68500E0ECCC /* AppKit.framework */,
+				4E1328941C7AC68500E0ECCC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E1328961C7AC68500E0ECCC /* SimulatorBuild */ = {
+			isa = PBXGroup;
+			children = (
+				4E13289A1C7AC68500E0ECCC /* SimulatorBuild.h */,
+				4E13289B1C7AC68500E0ECCC /* SimulatorBuild.m */,
+				4E13289D1C7AC68500E0ECCC /* NSObject_Extension.h */,
+				4E13289E1C7AC68500E0ECCC /* NSObject_Extension.m */,
+				4E1328A01C7AC68500E0ECCC /* Info.plist */,
+				4E1328971C7AC68500E0ECCC /* Supporting Files */,
+			);
+			path = SimulatorBuild;
+			sourceTree = "<group>";
+		};
+		4E1328971C7AC68500E0ECCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1328981C7AC68500E0ECCC /* SimulatorBuild.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E13288E1C7AC68500E0ECCC /* SimulatorBuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1328A31C7AC68500E0ECCC /* Build configuration list for PBXNativeTarget "SimulatorBuild" */;
+			buildPhases = (
+				4E13288B1C7AC68500E0ECCC /* Sources */,
+				4E13288C1C7AC68500E0ECCC /* Resources */,
+				4E13288D1C7AC68500E0ECCC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimulatorBuild;
+			productName = SimulatorBuild;
+			productReference = 4E13288F1C7AC68500E0ECCC /* SimulatorBuild.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E1328871C7AC68500E0ECCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Minal Soni";
+				TargetAttributes = {
+					4E13288E1C7AC68500E0ECCC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4E13288A1C7AC68500E0ECCC /* Build configuration list for PBXProject "SimulatorBuild" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E1328861C7AC68500E0ECCC;
+			productRefGroup = 4E1328901C7AC68500E0ECCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E13288E1C7AC68500E0ECCC /* SimulatorBuild */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E13288C1C7AC68500E0ECCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1328991C7AC68500E0ECCC /* SimulatorBuild.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E13288B1C7AC68500E0ECCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E13289C1C7AC68500E0ECCC /* SimulatorBuild.m in Sources */,
+				4E13289F1C7AC68500E0ECCC /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E1328A11C7AC68500E0ECCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		4E1328A21C7AC68500E0ECCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		4E1328A41C7AC68500E0ECCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = SimulatorBuild/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.punchh.SimulatorBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		4E1328A51C7AC68500E0ECCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = SimulatorBuild/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.punchh.SimulatorBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E13288A1C7AC68500E0ECCC /* Build configuration list for PBXProject "SimulatorBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1328A11C7AC68500E0ECCC /* Debug */,
+				4E1328A21C7AC68500E0ECCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1328A31C7AC68500E0ECCC /* Build configuration list for PBXNativeTarget "SimulatorBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1328A41C7AC68500E0ECCC /* Debug */,
+				4E1328A51C7AC68500E0ECCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E1328871C7AC68500E0ECCC /* Project object */;
+}
