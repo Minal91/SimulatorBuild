@@ -7,9 +7,9 @@ Create simulator build application for Facebook approval etc
 2.Restart Xcode
 
 ## Uninstall
-Remove SimulatorBuild.xcplugin file at location ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/
+Remove SimulatorBuild.xcplugin file at location ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/.
 OR 
-Run `rm -r ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/SimulatorBuild.xcplugin` in Terminal
+Run `rm -r ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/SimulatorBuild.xcplugin` in Terminal.
 
 ## Usage
 Xcode window option contains an menu item entitled as "Simulator Build" for creation of Simulator Build.
