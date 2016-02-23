@@ -23,4 +23,4 @@ Xcode window option contains an menu item entitled as "Simulator Build" for crea
 ## Test
 Run `xcrun simctl install booted <app-path>` to install build into booted simulator in Terminal.
 
-(NOTE:For more xcrun simctl subcommands [simctl](http://dduan.net/post/2015/02/build-and-run-ios-apps-in-commmand-line/))
+(NOTE:For more xcrun simctl [subcommands](http://dduan.net/post/2015/02/build-and-run-ios-apps-in-commmand-line/))
