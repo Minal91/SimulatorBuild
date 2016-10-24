@@ -1,6 +1,9 @@
 # SimulatorBuild
 Create simulator build application for Facebook approval etc
 
+## Time to say "Goodbye World"
+Please note that plugins are not supported by Xcode 8. See [#475](https://github.com/alcatraz/Alcatraz/issues/475) for more information.
+
 ## Install
 1.Put SimulatorBuild.xcplugin file at location ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins
 
